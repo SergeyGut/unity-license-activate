@@ -65,3 +65,6 @@ typings/
 /code.txt
 /error.html
 /error.png
+
+#linux-style line endings
+*.js text eol=lf
