@@ -1,7 +1,7 @@
 {
-  "name": "unity-license-activate",
+  "name": "unity-license-activate-unix",
   "version": "0.3.9",
-  "description": "",
+  "description": "[![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://opensource.org/licenses/Apache-2.0)\r [![Release](https://img.shields.io/github/tag/jcs090218/unity-license-activate.svg?label=release&logo=github)](https://github.com/jcs090218/unity-license-activate/releases/latest)\r [![npm](https://img.shields.io/npm/v/unity-license-activate?logo=npm&color=green)](https://www.npmjs.com/package/unity-license-activate)\r [![npm-dm](https://img.shields.io/npm/dm/unity-license-activate.svg)](https://npmcharts.com/compare/unity-license-activate?minimal=true)",
   "main": "./lib/activate.js",
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "MizoTake & Jen-Chieh Shen",
-  "license": "apache-2.0",
+  "license": "Apache-2.0",
   "preferGlobal": true,
   "dependencies": {
     "crypto-js": "^4.1.1",
@@ -25,9 +25,18 @@
   ],
   "homepage": "https://github.com/game-ci/unity-license-activate#readme",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "test": "test"
   },
   "bin": {
-    "unity-license-activate": "./lib/cli.js"
-  }
+    "unity-license-activate": "lib/cli.js"
+  },
+  "keywords": [
+    "unity",
+    "licence",
+    "activation",
+    "unix",
+    "line",
+    "endings"
+  ]
 }
